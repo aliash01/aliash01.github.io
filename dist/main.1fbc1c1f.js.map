@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS,WAAW,CAAC;IACjB,EAAE,SAAS,CAAC,MAAM,CAAC;AACrB","sources":["icon.js"],"sourcesContent":["function myFunction(x) {\r\n    x.classList.toggle(\"change\");\r\n  }"],"names":[],"version":3,"file":"main.1fbc1c1f.js.map","sourceRoot":"/__parcel_source_root/"}
