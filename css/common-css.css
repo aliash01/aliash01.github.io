@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+}
+
+a:link {text-decoration: none;}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    border: 1px solid grey;
+    font-family: "Roboto Mono", monospace;
+}
+
+.top-bar {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    font-family: "Kode Mono", monospace;
+    border-bottom: 1px solid grey;
+}
+
+.top-bar p {
+    margin-left: 10px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar #return:hover {
+    color: rgb(83, 14, 14);
+}
+
+.top-bar a:visited {
+    color: white;
+}
+
+.nav-list li {
+    border-left: 15px solid black; 
+    border-right: 15px solid black;
+    color: rgb(100, 21, 21);
+}
+
+.nav-list li:hover {
+    background-color: pink;
+    border-left: 15px solid rgba(0, 0, 0, 0);
+    border-right: 15px solid rgba(252, 0, 0, 0);
+}
+
+.nav-list li:visited {
+    border-left: 15px solid gainsboro; 
+    border-right: 15px solid gainsboro;
+    color: rgba(83, 14, 14, 0.764);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+footer p {
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-family: "Roboto Mono", monospace;
+  }
+
+
+
+.bottom-list:first-child {
+    margin-left: 10px;
+}
+
+.bottom-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    vertical-align: top;
+    gap: 20px;
+    font-family: "Kode Mono", monospace;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+.bottom-list a {
+    color: white;
+}
+
+.bottom-list a:hover {
+    color: lightgray;
+}
+
+.logo-bar {
+    height: 50px;
+    line-height: 50px;
+    background: linear-gradient(45deg, #061de3, #e306ca),
+                linear-gradient(45deg, #061de3, #e306ca); /* Set your desired gradient */
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; /* Important to prevent repetition */
+    border: 10px solid transparent; /* Adjust border width as needed */
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 3px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-list #current-page {
+    background-color: pink;
+    border-left: 15px solid pink;
+    border-right: 15px solid pink;
+    user-select: none;
+}
+
+#github-img {
+    width: 80px;
+    height: 21px;
+}
+
+#github {
+    height: 36px;
+}
+
+#insta, #linkedin {
+    height: 30px;
+}
+
+.logo-bar img {
+    height: 30px;
+}
+
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+}
